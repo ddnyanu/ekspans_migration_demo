@@ -1,0 +1,66 @@
+#  Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+#  Django
+*.log
+*.pot
+*.pyc
+
+# SQLite databases (local/dev only)
+db.sqlite3
+*.sqlite3
+
+#  Environment variables
+.env
+.env.*
+*.env
+
+#  Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+#  IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+#  OS files
+.DS_Store
+Thumbs.db
+
+#  Static & Media (if generated locally)
+staticfiles/
+media/
+
+#  Logs
+*.log
+
+#  Testing / Coverage
+htmlcov/
+.coverage
+.cache
+pytest_cache/
+
+#  Node (if frontend added later)
+node_modules/
+build/
+dist/
+
+#  Docker / runtime
+*.pid
+*.seed
+*.pid.lock
+
+#  Secrets / keys
+*.pem
+*.key
+secrets.json
+
+#  Backup files
+*.bak
+*.backup

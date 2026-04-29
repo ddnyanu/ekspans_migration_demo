@@ -1,0 +1,20 @@
+Django>=4.2,<5.0
+djangorestframework>=3.14
+
+# Env variables
+python-dotenv>=1.0
+
+# PostgreSQL (for production later)
+psycopg2-binary>=2.9
+
+# CORS (for frontend integration)
+django-cors-headers>=4.3
+
+# Filtering support
+django-filter>=23.0
+
+# Image handling (optional)
+Pillow>=10.0
+
+# Production server
+gunicorn>=21.2
