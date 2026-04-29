@@ -6,9 +6,10 @@ from django.db import models
 class Product(models.Model):
     name = models.CharField(max_length=255)
     price = models.FloatField()
+    type= models.CharField(max_length=255,blank=True,null=True)
     
     class Meta:
-        db_table = "product"
+        db_table = "product_data"
 
     def __str__(self):
         return self.name
