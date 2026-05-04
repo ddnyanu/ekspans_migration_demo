@@ -8,6 +8,8 @@ class Product(models.Model):
     price = models.FloatField()
     category= models.CharField(max_length=255,blank=True,null=True)
     type= models.CharField(max_length=255,blank=True,null=True)
+    discount= models.CharField(max_length=255,blank=True,null=True)
+    
     
     class Meta:
         db_table = "product_data"
