@@ -9,6 +9,7 @@ class Product(models.Model):
     category= models.CharField(max_length=255,blank=True,null=True)
     type= models.CharField(max_length=255,blank=True,null=True)
     discount= models.CharField(max_length=255,blank=True,null=True)
+    pincode= models.CharField(max_length=255,blank=True,null=True)
     
     
     class Meta:
